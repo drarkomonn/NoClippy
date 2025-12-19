@@ -10,11 +10,11 @@ permissions:
 
 jobs:
   release:
-    uses: UnknownX7/DalamudPluginRepo/.github/workflows/reusable_create_release.yml@master
+    uses: drarkomonn/DalamudPluginRepo/.github/workflows/reusable_create_release.yml@master
     with:
       internal_name: NoClippy
       solution_name: NoClippy
       build_configuration: Release
-      personal_plugin_repo: UnknownX7/DalamudPluginRepo
+      personal_plugin_repo: drarkomonn/DalamudPluginRepo
       personal_plugin_repo_branch: master
     secrets: inherit

@@ -10,7 +10,7 @@ permissions:
 
 jobs:
   release:
-    uses: drarkomonn/DalamudPluginRepo/.github/workflows/reusable_create_release.yml@master
+    uses: drarkomonn/DalamudPluginRepo/.github/workflows/reusable_create_release.yml@main
     with:
       internal_name: NoClippy
       solution_name: NoClippy
